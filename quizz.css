@@ -1,0 +1,119 @@
+body{margin:0 auto;
+	 padding:0;
+	 background-color:red;
+	 background:url(../images/bg.jpg);
+	 background-size:cover;
+	 font-family:verdana;
+	 }
+h2{font-size:15px;}
+#test_status{
+    -webkit-box-shadow: 0 20px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+}
+
+
+#test{
+	width:1000px;
+	height:360px;
+	background-color:white;
+	margin-left:10px;
+	margin-top:30px;
+	
+}
+#test1{
+	width:350px;
+	height:400px;
+	background-color:#b3d1ff;
+	margin-left:10px;
+	margin-top:30px;
+	
+}
+
+#test
+{
+  position: relative;
+}
+#test1
+{
+  position: relative;
+}
+#test:before, #test:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 35px 20px #777;
+  -moz-box-shadow: 0 35px 20px #777;
+  box-shadow: 0 35px 20px #777;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+#test1:before, #test1:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 35px 20px #777;
+  -moz-box-shadow: 0 35px 20px #777;
+  box-shadow: 0 35px 20px #777;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+#test:after
+{
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto;
+}#test1:after
+{
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto;
+}
+#test_status{
+	color:white;
+	width:1090px;
+	height:30px;
+	background-color:#005ce6;
+	margin-left:10px;
+	margin-top:10px;
+	
+	border-radius:15px;
+}
+
+input{
+	margin-left:50px;
+}
+
+.timecounter{
+	color:white;
+	margin-left:85%;
+	margin-top:30px;
+}
